@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\cata\\Documents\\F# projects\\FYP\\FYP\\FYP.fsproj": {}
+  },
+  "projects": {
+    "C:\\Users\\cata\\Documents\\F# projects\\FYP\\FYP\\FYP.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cata\\Documents\\F# projects\\FYP\\FYP\\FYP.fsproj",
+        "projectName": "FYP",
+        "projectPath": "C:\\Users\\cata\\Documents\\F# projects\\FYP\\FYP\\FYP.fsproj",
+        "packagesPath": "C:\\Users\\cata\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cata\\Documents\\F# projects\\FYP\\FYP\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cata\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\6.0.303\\FSharp\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "ExcelProvider": {
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "generatePathProperty": true
+            },
+            "Expecto": {
+              "target": "Package",
+              "version": "[9.0.4, )",
+              "generatePathProperty": true
+            },
+            "Expecto.BenchmarkDotNet": {
+              "target": "Package",
+              "version": "[9.0.4, )",
+              "generatePathProperty": true
+            },
+            "Expecto.FsCheck": {
+              "target": "Package",
+              "version": "[9.0.4, )",
+              "generatePathProperty": true
+            },
+            "FSharp.Core": {
+              "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[6.0.5, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.Office.Interop.Excel": {
+              "target": "Package",
+              "version": "[15.0.4795.1000, )",
+              "generatePathProperty": true
+            },
+            "SpreadSharp": {
+              "target": "Package",
+              "version": "[0.3.1, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

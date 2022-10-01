@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\cata\.nuget\packages\</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.2.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="C:\Users\cata\.nuget\packages\" />
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgSpreadSharp Condition=" '$(PkgSpreadSharp)' == '' ">C:\Users\cata\.nuget\packages\spreadsharp\0.3.1</PkgSpreadSharp>
+    <PkgMicrosoft_Office_Interop_Excel Condition=" '$(PkgMicrosoft_Office_Interop_Excel)' == '' ">C:\Users\cata\.nuget\packages\microsoft.office.interop.excel\15.0.4795.1000</PkgMicrosoft_Office_Interop_Excel>
+    <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\cata\.nuget\packages\microsoft.codeanalysis.analyzers\2.6.1</PkgMicrosoft_CodeAnalysis_Analyzers>
+    <PkgFSharp_Core Condition=" '$(PkgFSharp_Core)' == '' ">C:\Users\cata\.nuget\packages\fsharp.core\6.0.5</PkgFSharp_Core>
+    <PkgExpecto Condition=" '$(PkgExpecto)' == '' ">C:\Users\cata\.nuget\packages\expecto\9.0.4</PkgExpecto>
+    <PkgExpecto_FsCheck Condition=" '$(PkgExpecto_FsCheck)' == '' ">C:\Users\cata\.nuget\packages\expecto.fscheck\9.0.4</PkgExpecto_FsCheck>
+    <PkgExpecto_BenchmarkDotNet Condition=" '$(PkgExpecto_BenchmarkDotNet)' == '' ">C:\Users\cata\.nuget\packages\expecto.benchmarkdotnet\9.0.4</PkgExpecto_BenchmarkDotNet>
+    <PkgExcelProvider Condition=" '$(PkgExcelProvider)' == '' ">C:\Users\cata\.nuget\packages\excelprovider\2.0.0</PkgExcelProvider>
+  </PropertyGroup>
+</Project>

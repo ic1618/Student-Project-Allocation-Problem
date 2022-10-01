@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="AllocTypes.fs" />
+    <Compile Include="ReadFiles.fs" />
+    <Compile Include="Database.fs" />
+    <Compile Include="Defs.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ExcelProvider" Version="2.0.0" />
+    <PackageReference Include="Expecto" Version="9.0.4" />
+    <PackageReference Include="Expecto.BenchmarkDotNet" Version="9.0.4" />
+    <PackageReference Include="Expecto.FsCheck" Version="9.0.4" />
+    <PackageReference Include="Microsoft.Office.Interop.Excel" Version="15.0.4795.1000" />
+    <PackageReference Include="SpreadSharp" Version="0.3.1" />
+  </ItemGroup>
+
+</Project>

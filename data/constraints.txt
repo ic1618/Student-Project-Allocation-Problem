@@ -1,0 +1,15 @@
+1802075	0	0	Split project as split field	2
+1802079	0	0	Constrain student marks for project	2
+1802005	0	0	Split project as split field	2
+1802009	0	0	Constrain student marks for project	2
+1802004	0	0	Constrain student marks for project	2
+1802011	0	0	Constrain student marks for project	2
+1802010	0	0	Constrain student marks for project	2
+1801910	0	0	Split project as split field	2
+1802208	0	0	Split project as split field	2
+1802236	0	0	Split project as split field	2
+1802134	0	0	Split project as split field	2
+1802251	0	0	Encourage project allocation	2
+1802251	0	0	Split project as split field	2
+1802252	0	100	Constrain student marks for project	2
+1802246	0	0	Split project as split field	2
